@@ -13,7 +13,7 @@ RUN apt-get update && apt-get clean \
  && curl -sL https://deb.nodesource.com/setup_4.x | bash - \
  && apt-get install -y nodejs \
  && /usr/share/elasticsearch/bin/plugin install https://github.com/elasticfence/siren-join/releases/download/2.4.0/siren-join-2.4.0.zip \
- && /usr/share/elasticsearch/bin/plugin install https://raw.githubusercontent.com/elasticfence/elasticsearch-http-user-auth/2.3.5/jar/elasticfence-2.3.5-SNAPSHOT.zip \
+ && /usr/share/elasticsearch/bin/plugin install https://raw.githubusercontent.com/elasticfence/elasticsearch-http-user-auth/2.4/jar/elasticfence-2.4.0-SNAPSHOT.zip \
  && apt-get autoremove \
  && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
  
