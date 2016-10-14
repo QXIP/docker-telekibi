@@ -1,5 +1,5 @@
 # docker-telekibi
-TeleKibi: Kibi Supercharged with Elasticfence Plugins and much more!
+TeleKibi: Kibana/Kibi Supercharged with Elasticfence Plugins and much more!
 
 ## Usage
 
